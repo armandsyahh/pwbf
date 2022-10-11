@@ -28,3 +28,7 @@ Route::get('about', function () {
 Route::get('services', function () {
     return view('services');
 });
+
+Route::get('register', function () {
+    return view('register');
+});
